@@ -1,6 +1,6 @@
-import '../../@polymer/polymer/polymer-legacy.js';
+import '@polymer/polymer/polymer-legacy.js';
 import './charts-loader.js';
-import { Polymer } from '../../@polymer/polymer/lib/legacy/polymer-fn.js';
+import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
 
 /** @type {string} Most charts use this package. */
 var DEFACTO_CHART_PACKAGE = 'corechart';

@@ -51,18 +51,13 @@ on the `html` tag of your document.
 
 @demo
 */
-/*
-  FIXME(polymer-modulizer): the above comments were extracted
-  from HTML and may be out of place here. Review them and
-  then delete this comment!
-*/
-import '../../@polymer/polymer/polymer-legacy.js';
+import '@polymer/polymer/polymer-legacy.js';
 
-import '../../@polymer/iron-ajax/iron-request.js';
+import '@polymer/iron-ajax/iron-request.js';
 import './google-chart-loader.js';
 import './google-chart-styles.js';
-import { Polymer } from '../../@polymer/polymer/lib/legacy/polymer-fn.js';
-import { html } from '../../@polymer/polymer/lib/utils/html-tag.js';
+import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
+import { html } from '@polymer/polymer/lib/utils/html-tag.js';
 
 Polymer({
   _template: html`
